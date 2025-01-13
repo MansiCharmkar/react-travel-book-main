@@ -1,0 +1,13 @@
+.country {
+    background-color: var(--color-main-yellow-faded);
+    border: var(--yellow-border);
+    border-radius: var(--radius-sm);
+    padding: 1.5rem;
+    font-size: 1.35rem;
+    text-align: center;
+    flex-basis: 14rem;
+}
+
+.flag {
+    font-size: 3.5rem;
+}

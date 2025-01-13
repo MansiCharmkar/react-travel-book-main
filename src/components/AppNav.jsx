@@ -5,7 +5,7 @@ function AppNav() {
     return (
         <nav className={styles.nav}>
             <ul>
-                <li className={styles.active}>
+                <li>
                     <NavLink to="cities">Cities</NavLink>
                 </li>
                 <li>

@@ -1,3 +1,6 @@
+import CountryItem from "./countryItem";
+import styles from "../styles/countryList.module.css";
+
 const tempCities = [
     {
         cityName: "Devdaha",
@@ -74,7 +77,7 @@ const tempCities = [
 ];
 
 function CountryList() {
-    // with key value pair
+    // With key-value pair
     const countryListObj = tempCities.reduce(function (acc, city) {
         const key = city.country;
         acc[key] = { countryName: city.country, flag: city.emoji };
@@ -83,11 +86,15 @@ function CountryList() {
 
     const countryListArr = Object.values(countryListObj);
 
-    console.log(countryListArr);
-
-    return <div></div>;
+    return (
+        <div className={styles.countryList}>
+            {countryListArr.map(function (country) {
+                return (
+                    <CountryItem country={country} key={country.countryName} />
+                );
+            })}
+        </div>
+    );
 }
 
 export default CountryList;
-
-// [ Nepal, Bangladesh, Bhutan, India, India, United States of America (the)]
