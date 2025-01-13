@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+}
+
+.logo span {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.logo img {
+    height: 5rem;
+}

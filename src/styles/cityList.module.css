@@ -1,0 +1,8 @@
+.cityList {
+    width: 100%;
+    border-radius: var(--radius-sm);
+}
+
+.cityList li:not(:last-child) {
+    margin-bottom: 0.8rem;
+}

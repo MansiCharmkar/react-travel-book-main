@@ -1,0 +1,33 @@
+.city {
+    border: 1px solid var(--color-main-yellow);
+    width: 100%;
+    border-radius: var(--radius-sm);
+    background-color: var(--color-main-yellow-faded);
+    padding: 2rem;
+}
+
+.city .row {
+    font-size: 1.6rem;
+}
+
+.city .row:not(:last-child) {
+    padding-bottom: 2rem;
+}
+
+.city .row h6 {
+    font-size: 1.3rem;
+}
+
+.city .row a {
+    color: var(--color-blue);
+    text-decoration: underline;
+}
+
+.city .row .emoji {
+    font-size: 3rem;
+}
+
+.backButton {
+    display: flex;
+    justify-content: flex-end;
+}

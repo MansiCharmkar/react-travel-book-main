@@ -1,0 +1,28 @@
+.imageBox {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+
+.imageBox img:nth-child(2n) {
+    transform: translateY(4rem);
+}
+
+.imageBox img {
+    height: 19rem;
+    border-radius: var(--radius-sm);
+}
+
+.description {
+    max-width: 82rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.description p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}

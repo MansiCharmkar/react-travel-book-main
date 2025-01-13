@@ -1,0 +1,36 @@
+.cityItem {
+    display: flex;
+    font-size: 1.25rem;
+    background-color: var(--color-main-yellow-faded);
+    align-items: center;
+    padding: 0.4rem 1rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-main-yellow);
+}
+
+.cityItem:hover {
+    opacity: 0.9;
+    background-color: var(--color-main-yellow);
+}
+
+.emoji {
+    font-size: 2rem;
+}
+
+.cityName {
+    margin-left: 2rem;
+    margin-right: auto;
+    font-weight: 500;
+}
+
+.time {
+    margin-right: 2rem;
+}
+
+.deleteBtn {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    min-height: 1rem;
+    min-width: 2rem;
+    border-radius: 0.3rem;
+}

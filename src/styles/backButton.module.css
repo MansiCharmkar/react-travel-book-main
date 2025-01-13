@@ -1,0 +1,14 @@
+.backButton {
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--color-main-yellow);
+    background-color: var(--color-white);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+}
+
+.backButton:hover {
+    background-color: var(--color-main-yellow);
+}

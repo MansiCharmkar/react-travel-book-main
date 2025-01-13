@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 6rem;
+}
+
+.nav ul {
+    display: flex;
+    gap: 4rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.nav .loginBtn {
+    background-color: var(--color-black);
+    padding: 0.7rem 1.8rem;
+    border-radius: 100rem;
+}
+
+.nav .loginBtn a {
+    color: var(--color-white);
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.nav ul li:not(:first-child) :global(a.active) {
+    color: var(--color-main-yellow);
+}
