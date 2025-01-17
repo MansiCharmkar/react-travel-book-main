@@ -1,6 +1,9 @@
 .cityList {
     width: 100%;
     border-radius: var(--radius-sm);
+    height: 70%;
+    overflow-y: scroll;
+    padding-right: 2rem;
 }
 
 .cityList li:not(:last-child) {
