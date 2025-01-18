@@ -5,6 +5,8 @@ function Map() {
     const navigate = useNavigate();
     const latVal = "34.47443328617457";
     const lngVal = "103.36212158203125";
+    // const latVal = "11.25741626205941";
+    // const lngVal = "63.76464843750001";
 
     function handleClick() {
         return navigate(`form?lat=${latVal}&lng=${lngVal}`);
