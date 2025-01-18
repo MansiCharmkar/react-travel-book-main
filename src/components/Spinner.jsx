@@ -1,5 +1,5 @@
 import styles from "../styles/spinner.module.css";
-function Loader() {
+function Spinner() {
     return (
         <div className={styles.loaderBox}>
             <div className={styles.loader}></div>
@@ -7,4 +7,4 @@ function Loader() {
     );
 }
 
-export default Loader;
+export default Spinner;

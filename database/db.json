@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Boalmari",
-      "country": "Bangladesh",
-      "emoji": "🇧🇩",
-      "date": "2024-10-26T04:53:34.170Z",
-      "notes": "This is a note about Boalmari",
-      "position": {
-        "lat": "23.36242859340884",
-        "lng": "89.747314453125"
-      },
-      "id": "1"
-    },
-    {
       "cityName": "New York",
       "country": "United States",
       "emoji": "🇺🇸",
@@ -193,112 +181,28 @@
       "id": "16"
     },
     {
-      "cityName": "Athens",
-      "country": "Greece",
-      "emoji": "🇬🇷",
-      "date": "2024-10-26T07:40:00.000Z",
-      "notes": "This is a note about Athens",
+      "cityName": "Gannan Zangzu Zizhizhou",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2025-01-18T09:53:33.233Z",
+      "notes": "A note about Gannan Zangzu Zizhizhou",
       "position": {
-        "lat": "37.98381",
-        "lng": "23.727539"
+        "lat": "34.47443328617457",
+        "lng": "103.36212158203125"
       },
-      "id": "17"
+      "id": "Pp_hEBo"
     },
     {
-      "cityName": "Seoul",
-      "country": "South Korea",
-      "emoji": "🇰🇷",
-      "date": "2024-10-26T07:50:00.000Z",
-      "notes": "This is a note about Seoul",
+      "cityName": "Gannan Zangzu Zizhizhou",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2025-01-18T10:17:50.532Z",
+      "notes": "A note about Gannan Zangzu Zizhizhou",
       "position": {
-        "lat": "37.566536",
-        "lng": "126.977966"
+        "lat": "34.47443328617457",
+        "lng": "103.36212158203125"
       },
-      "id": "18"
-    },
-    {
-      "cityName": "Rome",
-      "country": "Italy",
-      "emoji": "🇮🇹",
-      "date": "2024-10-26T08:00:00.000Z",
-      "notes": "This is a note about Rome",
-      "position": {
-        "lat": "41.902783",
-        "lng": "12.496366"
-      },
-      "id": "19"
-    },
-    {
-      "cityName": "Istanbul",
-      "country": "Turkey",
-      "emoji": "🇹🇷",
-      "date": "2024-10-26T08:10:00.000Z",
-      "notes": "This is a note about Istanbul",
-      "position": {
-        "lat": "41.00824",
-        "lng": "28.978359"
-      },
-      "id": "20"
-    },
-    {
-      "id": "0700",
-      "cityName": "Gannan Zangzu Zizhizhou",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-01-18T09:04:25.139Z",
-      "notes": "A note about Gannan Zangzu Zizhizhou",
-      "position": {
-        "lat": "34.47443328617457",
-        "lng": "103.36212158203125"
-      }
-    },
-    {
-      "id": "467a",
-      "cityName": "Gannan Zangzu Zizhizhou",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-01-18T09:04:25.139Z",
-      "notes": "A note about Gannan Zangzu Zizhizhou",
-      "position": {
-        "lat": "34.47443328617457",
-        "lng": "103.36212158203125"
-      }
-    },
-    {
-      "id": "b43a",
-      "cityName": "Gannan Zangzu Zizhizhou",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-01-18T09:10:24.553Z",
-      "notes": "A note about Gannan Zangzu Zizhizhou",
-      "position": {
-        "lat": "34.47443328617457",
-        "lng": "103.36212158203125"
-      }
-    },
-    {
-      "id": "4d9a",
-      "cityName": "Gannan Zangzu Zizhizhou",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-01-18T09:24:49.506Z",
-      "notes": "A note about Gannan Zangzu Zizhizhou",
-      "position": {
-        "lat": "34.47443328617457",
-        "lng": "103.36212158203125"
-      }
-    },
-    {
-      "id": "72e3",
-      "cityName": "Gannan Zangzu Zizhizhou",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2025-01-18T09:25:05.267Z",
-      "notes": "A note about Gannan Zangzu Zizhizhou",
-      "position": {
-        "lat": "34.47443328617457",
-        "lng": "103.36212158203125"
-      }
+      "id": "_grOmOy"
     }
   ]
 }
