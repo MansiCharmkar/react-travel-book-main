@@ -1,8 +1,17 @@
 import Nav from "../components/Nav";
 import style from "../styles/login.module.css";
 import LogoBox from "../components/LogoBox";
+import SignUpForm from "../components/SignUpForm";
+import LoginForm from "../components/LoginForm";
+import { useState } from "react";
 
 function LoginPage() {
+    const [showLogin, setShowLogin] = useState(true);
+    function toggleLogin() {
+        setShowLogin(function (showLogin) {
+            return !showLogin;
+        });
+    }
     return (
         <div className={style.loginPage}>
             <Nav />
@@ -13,24 +22,23 @@ function LoginPage() {
                     </div>
                     <div className={style.formContainer}>
                         <LogoBox />
-                        <form>
-                            <div>
-                                <label htmlFor="name">Name</label>
-                                <input type="text" id="name" />
-                            </div>
+                        {showLogin && (
+                            <>
+                                <LoginForm />
+                                <button onClick={toggleLogin}>
+                                    Do not have account? Sign Up
+                                </button>
+                            </>
+                        )}
 
-                            <div>
-                                <label htmlFor="email">Email</label>
-                                <input type="email" id="email" />
-                            </div>
-
-                            <div>
-                                <label htmlFor="password">Password</label>
-                                <input type="password" id="password" />
-                            </div>
-
-                            <button>Login</button>
-                        </form>
+                        {!showLogin && (
+                            <>
+                                <SignUpForm />
+                                <button onClick={toggleLogin}>
+                                    Already have account? Login
+                                </button>
+                            </>
+                        )}
                     </div>
                 </div>
             </main>

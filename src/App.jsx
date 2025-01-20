@@ -18,6 +18,7 @@ import CountryList from "./components/CountryList";
 import { CitiesProvider } from "./contexts/citiesContext";
 import AddCityForm from "./components/AddCityForm";
 import City from "./components/City";
+import { AuthProvider } from "./contexts/userContext";
 
 const AppRoutesV1 = function () {
     return (
@@ -25,7 +26,7 @@ const AppRoutesV1 = function () {
             <Routes>
                 <Route index element={<HomePage />} />
                 <Route path="product" element={<ProductPage />} />
-                <Route path="login" element={<LoginPage />} />
+                <Route path="Account" element={<LoginPage />} />
 
                 <Route
                     path="app"
@@ -49,7 +50,7 @@ const AppRoutesV1 = function () {
 const AppRoutesV2 = createBrowserRouter([
     { path: "/", element: <HomePage /> },
     { path: "/product", element: <ProductPage /> },
-    { path: "/login", element: <LoginPage /> },
+    { path: "/account", element: <LoginPage /> },
     {
         path: "/app",
         element: (
@@ -70,7 +71,11 @@ const AppRoutesV2 = createBrowserRouter([
 
 function App() {
     // return <AppRoutesV1 />;
-    return <RouterProvider router={AppRoutesV2} />;
+    return (
+        <AuthProvider>
+            <RouterProvider router={AppRoutesV2} />
+        </AuthProvider>
+    );
 }
 
 export default App;

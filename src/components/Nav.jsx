@@ -9,7 +9,7 @@ function Nav() {
                     <NavLink to="/">Home</NavLink>
                 </li>
                 <li className={style.loginBtn}>
-                    <NavLink to="/login">Login</NavLink>
+                    <NavLink to="/account">Get Started</NavLink>
                 </li>
                 <li>
                     <NavLink to="/product">Product</NavLink>

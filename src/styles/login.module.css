@@ -1,7 +1,28 @@
 .loginPage {
-    height: 100vh;
+    /* height: 100vh; */
+    gap: 4rem;
     display: flex;
     flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.loginPage h1 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+.loginPage input {
+    font-size: 1.25rem;
+}
+
+.loginPage button {
+    background-color: transparent;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.loginPage button:hover {
+    text-decoration: underline;
 }
 
 .loginPage .loginSection {
@@ -11,7 +32,7 @@
     justify-content: center;
 }
 
-.loginPage .loginSection>div {
+.loginPage .loginSection > div {
     width: 70%;
     display: flex;
     overflow: hidden;
