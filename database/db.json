@@ -169,40 +169,28 @@
       "id": "15"
     },
     {
-      "cityName": "Buenos Aires",
-      "country": "Argentina",
-      "emoji": "🇦🇷",
-      "date": "2024-10-26T07:30:00.000Z",
-      "notes": "This is a note about Buenos Aires",
-      "position": {
-        "lat": "-34.603722",
-        "lng": "-58.381592"
-      },
-      "id": "16"
-    },
-    {
       "cityName": "Gannan Zangzu Zizhizhou",
       "country": "China",
       "emoji": "🇨🇳",
-      "date": "2025-01-18T09:53:33.233Z",
+      "date": "2025-01-18T12:07:33.600Z",
       "notes": "A note about Gannan Zangzu Zizhizhou",
       "position": {
         "lat": "34.47443328617457",
         "lng": "103.36212158203125"
       },
-      "id": "Pp_hEBo"
+      "id": "6rfSoeN"
     },
     {
       "cityName": "Gannan Zangzu Zizhizhou",
       "country": "China",
       "emoji": "🇨🇳",
-      "date": "2025-01-18T10:17:50.532Z",
+      "date": "2025-01-18T12:16:07.252Z",
       "notes": "A note about Gannan Zangzu Zizhizhou",
       "position": {
         "lat": "34.47443328617457",
         "lng": "103.36212158203125"
       },
-      "id": "_grOmOy"
+      "id": "oOesow8"
     }
   ]
 }

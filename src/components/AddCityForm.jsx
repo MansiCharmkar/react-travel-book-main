@@ -129,14 +129,17 @@ function AddCityForm() {
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>City name</label>
-                    <input
-                        type="text"
-                        defaultValue={cityDetails.cityName}
-                        disabled={true}
-                    />
+                    <div className={styles.emojiInputBox}>
+                        <input
+                            type="text"
+                            defaultValue={cityDetails.cityName}
+                            disabled={true}
+                        />
+                        <span>{cityDetails.emoji}</span>
+                    </div>
                 </div>
                 <div>
-                    <label>When did you go to #cityName</label>
+                    <label>When did you go to {cityDetails.cityName}</label>
                     <input
                         type="date"
                         value={formatDateForInputValue(cityDetails.date)}

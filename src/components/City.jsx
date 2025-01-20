@@ -2,22 +2,16 @@ import styles from "../styles/city.module.css";
 import { formatDate } from "../helper";
 import { GoArrowLeft } from "react-icons/go";
 import BackButton from "./BackButton";
-
-const tempCity = {
-    cityName: "Devdaha",
-    country: "Nepal",
-    emoji: "🇳🇵",
-    date: "2024-10-26T04:53:08.130Z",
-    notes: "This is a note about Devdaha",
-    position: {
-        lat: "27.60323689456203",
-        lng: "83.55926513671876",
-    },
-    id: 3,
-};
+import { useCities } from "../contexts/citiesContext";
+import Spinner from "./Spinner";
 
 function City() {
-    const { emoji, cityName, notes, date } = tempCity;
+    const { city, loading: apiLoading } = useCities();
+    const { emoji, cityName, notes, date } = city;
+
+    if (apiLoading) {
+        return <Spinner />;
+    }
     return (
         <div className={styles.city}>
             <div className={styles.row}>

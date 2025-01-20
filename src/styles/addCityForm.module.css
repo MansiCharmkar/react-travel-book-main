@@ -3,6 +3,8 @@
     font-size: 1.25rem;
     margin-top: 2rem;
     border-radius: var(--radius-sm);
+    height: 100%;
+    overflow-y: scroll;
 }
 
 .addCityForm form > div {
@@ -39,4 +41,16 @@
 
 .buttonBox button[type="primary"]:hover {
     opacity: 0.9;
+}
+
+.emojiInputBox {
+    position: relative;
+}
+
+.emojiInputBox span {
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 1rem;
 }
