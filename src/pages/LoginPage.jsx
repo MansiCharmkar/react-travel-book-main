@@ -7,6 +7,7 @@ import { useState } from "react";
 
 function LoginPage() {
     const [showLogin, setShowLogin] = useState(true);
+
     function toggleLogin() {
         setShowLogin(function (showLogin) {
             return !showLogin;

@@ -191,9 +191,20 @@
                 "lng": "103.36212158203125"
             },
             "id": "oOesow8"
+        },
+        {
+            "cityName": "Gannan Zangzu Zizhizhou",
+            "country": "China",
+            "emoji": "🇨🇳",
+            "date": "2025-01-21T10:27:58.134Z",
+            "notes": "A note about Gannan Zangzu Zizhizhou",
+            "position": {
+                "lat": "34.47443328617457",
+                "lng": "103.36212158203125"
+            },
+            "id": "SgvpLX5"
         }
     ],
-
     "users": [
         {
             "name": "Anuj Mishra",
@@ -206,6 +217,30 @@
             "email": "kapil@gmail.com",
             "password": "password555",
             "id": 2
+        },
+        {
+            "name": "hello",
+            "email": "hello@gmail.com",
+            "password": "Mansi12345",
+            "id": 3
+        },
+        {
+            "name": "abc",
+            "email": "abc@gmail.com",
+            "password": "Abc122345",
+            "id": 4
+        },
+        {
+            "name": "abc",
+            "email": "abc@gmail.com",
+            "password": "Abc12345",
+            "id": 5
+        },
+        {
+            "name": "xyz",
+            "email": "xyz@gmail.com",
+            "password": "Xyz12345",
+            "id": 6
         }
     ]
 }
