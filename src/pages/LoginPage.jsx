@@ -26,7 +26,10 @@ function LoginPage() {
                         {showLogin && (
                             <>
                                 <LoginForm />
-                                <button onClick={toggleLogin}>
+                                <button
+                                    className={style.toggleForm}
+                                    onClick={toggleLogin}
+                                >
                                     Do not have account? Sign Up
                                 </button>
                             </>
@@ -35,7 +38,10 @@ function LoginPage() {
                         {!showLogin && (
                             <>
                                 <SignUpForm />
-                                <button onClick={toggleLogin}>
+                                <button
+                                    className={style.toggleForm}
+                                    onClick={toggleLogin}
+                                >
                                     Already have account? Login
                                 </button>
                             </>

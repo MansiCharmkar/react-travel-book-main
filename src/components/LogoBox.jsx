@@ -1,11 +1,14 @@
+import { Link } from "react-router";
 import Logo from "./Logo";
 
 function LogoBox() {
     return (
-        <div className="logoBox">
-            <Logo />
-            <span>TravelBook</span>
-        </div>
+        <Link to={"/"}>
+            <div className="logoBox">
+                <Logo />
+                <span>TravelBook</span>
+            </div>
+        </Link>
     );
 }
 

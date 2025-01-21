@@ -1,0 +1,31 @@
+.userBox {
+    position: absolute;
+    display: flex;
+    background-color: var(--color-main-yellow-faded);
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius-sm);
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    z-index: 1000;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 4rem;
+    right: 4rem;
+}
+
+.imageBox img {
+    height: 5rem;
+    border-radius: 100rem;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.userBox button {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: var(--radius-sm);
+    background-color: var(--color-main-yellow);
+}

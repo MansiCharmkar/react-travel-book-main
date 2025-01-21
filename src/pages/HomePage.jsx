@@ -20,7 +20,7 @@ function HomePage() {
                         experiences, and show your friends how you have wandered
                         the world.
                     </p>
-                    <Link to="/login" className={style.cta}>
+                    <Link to="/account" className={style.cta}>
                         <span>Start Tracking Now</span> <GoArrowRight />
                     </Link>
                 </div>
