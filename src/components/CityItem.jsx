@@ -3,7 +3,7 @@ import { useCities } from "../contexts/citiesContext";
 import { formatDate } from "../helper";
 import styles from "../styles/cityItem.module.css";
 
-function CityItem({ city }) {
+function CityItem({ city, active }) {
     const { cityName, emoji, date, id, position } = city;
     const { handleRemoveCity, handleLoadCity } = useCities();
     const navigate = useNavigate();
@@ -21,7 +21,11 @@ function CityItem({ city }) {
 
     return (
         <li onClick={navigateToCityRoute}>
-            <div className={styles.cityItem}>
+            <div
+                className={`${styles.cityItem} ${
+                    active ? styles.activeCityItem : ""
+                }`}
+            >
                 <span className={styles.emoji}>{emoji}</span>
                 <h3 className={styles.cityName}>{cityName}</h3>
                 <time className={styles.time}>{formatDate(date)}</time>

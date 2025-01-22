@@ -184,18 +184,6 @@
       "cityName": "Gannan Zangzu Zizhizhou",
       "country": "China",
       "emoji": "🇨🇳",
-      "date": "2025-01-18T12:16:07.252Z",
-      "notes": "A note about Gannan Zangzu Zizhizhou",
-      "position": {
-        "lat": "34.47443328617457",
-        "lng": "103.36212158203125"
-      },
-      "id": "oOesow8"
-    },
-    {
-      "cityName": "Gannan Zangzu Zizhizhou",
-      "country": "China",
-      "emoji": "🇨🇳",
       "date": "2025-01-21T10:27:58.134Z",
       "notes": "A note about Gannan Zangzu Zizhizhou",
       "position": {
@@ -215,6 +203,18 @@
         "lng": "61.26407827057454"
       },
       "id": "oUp87CT"
+    },
+    {
+      "cityName": "Kalpi",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-01-22T10:37:12.974Z",
+      "notes": "A note about Kalpi",
+      "position": {
+        "lat": "26.080586169861373",
+        "lng": "79.72875218361803"
+      },
+      "id": "khZAgag"
     }
   ],
   "users": [

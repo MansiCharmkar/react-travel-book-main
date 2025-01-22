@@ -3,8 +3,10 @@ import Nav from "../components/Nav";
 import style from "../styles/HomePage.module.css";
 import { GoArrowRight } from "react-icons/go";
 import Logo from "../components/Logo";
+import { useUser } from "../contexts/userContext";
 
 function HomePage() {
+    const user = useUser();
     return (
         <div className={style.homePage}>
             <Nav />
@@ -20,7 +22,7 @@ function HomePage() {
                         experiences, and show your friends how you have wandered
                         the world.
                     </p>
-                    <Link to="/account" className={style.cta}>
+                    <Link to={user ? "/app" : "/account"} className={style.cta}>
                         <span>Start Tracking Now</span> <GoArrowRight />
                     </Link>
                 </div>
