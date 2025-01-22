@@ -9,6 +9,7 @@ import Spinner from "./Spinner";
 import { useNavigate } from "react-router";
 
 const BASE_URL = `https://api.bigdatacloud.net/data/reverse-geocode-client`;
+//
 
 function AddCityForm() {
     const { handleAddCity, loading: apiLoading, error: apiError } = useCities();
@@ -39,7 +40,10 @@ function AddCityForm() {
                     const url = `${BASE_URL}?latitude=${lat}&longitude=${lng}`;
                     const response = await fetch(url);
                     const data = await response.json();
+                    console.log(data);
                     const cityName = data.city;
+
+                    setCityNotFound(false);
 
                     if (!cityName) {
                         setCityNotFound(true);

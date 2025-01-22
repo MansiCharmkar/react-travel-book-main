@@ -3,7 +3,7 @@ import { loginUser, signUpUser } from "../services/apiUsers";
 
 const UserContext = createContext();
 const initialState = {
-    user: null,
+    user: { name: "Mani", email: "mani@gmail.com", password: "Mani12345" },
     error: {},
     loading: false,
 };
