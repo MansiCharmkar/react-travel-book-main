@@ -203,6 +203,18 @@
         "lng": "103.36212158203125"
       },
       "id": "SgvpLX5"
+    },
+    {
+      "cityName": "Adimi",
+      "country": "Iran (Islamic Republic of)",
+      "emoji": "🇮🇷",
+      "date": "2025-01-22T10:17:11.767Z",
+      "notes": "A note about Adimi",
+      "position": {
+        "lat": "31.430878618602076",
+        "lng": "61.26407827057454"
+      },
+      "id": "oUp87CT"
     }
   ],
   "users": [

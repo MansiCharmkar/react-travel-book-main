@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import toast from "react-hot-toast";
 
 function fetchCurrentCoords() {
     return new Promise(function (resolve, reject) {
@@ -25,7 +26,17 @@ function useCurrentCoords(lat, lng) {
         (async function () {
             try {
                 setLoading(true);
-                setPosition(await fetchCurrentCoords());
+
+                toast.promise(
+                    async () => {
+                        setPosition(await fetchCurrentCoords());
+                    },
+                    {
+                        loading: "Fetching current location...",
+                        success: "Current location fetched successfully",
+                        error: "Unable to fetch your location",
+                    }
+                );
             } catch (error) {
                 setError(error.message);
             } finally {
