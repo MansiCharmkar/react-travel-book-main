@@ -5,8 +5,8 @@ import { useNavigate } from "react-router";
 import FormError from "./FormError";
 
 function LoginForm() {
-    const [email, setEmail] = useState("mani@gmail.com");
-    const [password, setPassword] = useState("Mani12345");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
     const { handleLogin, loading, error } = useUser();
     const passwordError = error.type === "password-error";

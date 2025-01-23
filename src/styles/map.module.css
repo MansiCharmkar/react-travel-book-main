@@ -29,3 +29,12 @@
 :global(.leaflet-popup .leaflet-popup-tip) {
     background-color: var(--color-main-yellow-faded);
 }
+
+/* making map in dark mode  */
+
+:global(.leaflet-layer),
+:global(.leaflet-control-zoom-in),
+:global(.leaflet-control-zoom-out),
+:global(.leaflet-control-attribution) {
+    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
