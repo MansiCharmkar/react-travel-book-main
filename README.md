@@ -15,6 +15,8 @@ React Travel Book is a web app with React, js, CSS and React-Router v6. User can
 
 <img style="width:80%" src="/public/screenshorts/1.png">
 <br><br>
+<img style="width:80%" src="/public/screenshorts/6.png">
+<br><br>
 <img style="width:80%" src="/public/screenshorts/2.png">
 <br><br>
 <img style="width:80%" src="/public/screenshorts/3.png">
