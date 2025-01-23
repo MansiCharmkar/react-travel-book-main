@@ -66,6 +66,7 @@ npm run dev
 4. Built with useReducer and Context API for efficient state handling.
 5. Smooth navigation between pages using React Router v6.
 6. Powered by JSON Server for managing user and city data.
+7. Authorize person can access the map, city and countries.
 
 ## Contact Me
 
