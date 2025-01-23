@@ -70,7 +70,7 @@ npm run dev
 ## Contact Me
 
 [![GitHub ](https://img.shields.io/badge/GitHub-@MansiCharmkar-orange?style=flat&logo=GitHub&link=https://github.com/MansiCharmkar)](https://github.com/MansiCharmkar)
-[![LinkedIn ](https://img.shields.io/badge/LinkedIn-@mansiCharmkar-0077b5?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mansi-charmkar/)](https://www.linkedin.com/in/mansi-charmkar/)
+[![LinkedIn ](https://img.shields.io/badge/LinkedIn-@MansiCharmkar-0077b5?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mansi-charmkar/)](https://www.linkedin.com/in/mansi-charmkar/)
 
 ## LISENSE
 
