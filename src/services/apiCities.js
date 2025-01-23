@@ -1,4 +1,4 @@
-const baseURL = `http://localhost:3000`;
+const baseURL = `https://json-server-qo8p.onrender.com`;
 
 export async function getCities() {
     const response = await fetch(`${baseURL}/cities`, {

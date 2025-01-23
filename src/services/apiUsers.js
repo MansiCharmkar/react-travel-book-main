@@ -1,6 +1,6 @@
 import { validPassword } from "../helper";
 
-const baseURL = `http://localhost:3000`;
+const baseURL = `https://json-server-qo8p.onrender.com`;
 
 export async function getUserByEmail(emailAddress) {
     console.log(emailAddress);

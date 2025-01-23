@@ -1,97 +1,76 @@
-//////////////////////////////////////////////
-///////////// PROJECT REQUIREMENTS ///////////
-//////////////////////////////////////////////
+# Travel Book: React Travel Book Main
 
-PAGES :
+<div align="center">
+<h4>
+React Travel Book is a web app with React, js, CSS and React-Router v6. User can browse a city list, manage their visit place and add the city for visiting add by the ID. Its modern design ensures a seamless and enjoyable user experience.</h4>
 
-        ( All users )
+[![Repo Type](https://img.shields.io/badge/repo_type-Public-fcc419?style=flat&link=https://github.com/MansiCharmkar/SafarSathi-BookToursOnline)](https://github.com/MansiCharmkar/SafarSathi-BookToursOnline)
+![version](https://img.shields.io/badge/npm-v10.1.0-red)
+![version](https://img.shields.io/badge/node-v20.9.0-green)
+[![License](https://img.shields.io/badge/license-MIT-85e2cd.svg)](https://opensource.org/license/mit/)
 
-            1. "/"               --> Home Page
-            2. "/home"           --> Home Page
-            3. "/pricing"        --> Pricing Page
-            4. "/product"        --> Product Page
-            5. "/login"          --> Login Page
+##
 
-        ( Authenticated Users )
+<img style="width:80%" src="/public/screenshorts/1.png">
+<br><br>
+<img style="width:80%" src="/public/screenshorts/2.png">
+<br><br>
+<img style="width:80%" src="/public/screenshorts/3.png">
+<br><br>
+<img style="width:80%" src="/public/screenshorts/4.png">
+<br><br>
+<img style="width:80%" src="/public/screenshorts/5.png">
 
-            6. "/app"            -->
-            7. "/app/cities"     --> a. Load City List,    b. Load Map
-            8. "/app/countries"  --> a. Load Country List, b. Load Map
+##
 
-//// HOME PAGE
+</div>
 
-1. Nav
-2. Hero
-   2.1. Description
-   2.2. CTA
+## Tech & Tools
 
-//// PRICING PAGE
+![Tech Stack](https://skillicons.dev/icons?i=react)
 
-1.  Nav
-2.  PricingDetails
+![Dev Tools](https://skillicons.dev/icons?i=vscode,git,github,postman)
 
-//// PRODUCT PAGE
+## Getting Started
 
-1.  Nav
-2.  ProductDetails
+**Step 1** : Install `npm packages`
 
-//// LOGIN PAGE
+```
+npm install
+```
 
-1. Nav
-2. Login Form
+**Step 2** : Run
 
-//// APP PAGE
+```
+npm run dev
+```
 
-AppPage (cities, isLoading, error)
+**Step 3** : Must have VS-Code Extentions
 
-    SideBar
+```
+1. Prettier-Code formatter
+2. ESLint
+```
 
-        1.1 CityList
-            1.1.1 City
-            1.1.1 City
-            1.1.1 City
-            1.1.1 City
-            1.1.1 City
+## Features
 
-        1.2 CountryList
-        1.3 CityDetails
-        1.4 AddCityForm
+#### User and Admin Management:
 
-2. Map
+1. Users can browse a list of cities and countries using React-Router data-loading.
+2. Map functionality is implemented with React leaflet.
+3. City count can be incremented or decremented in the CityList.
+4. City name can be searched by their ID using React-Router v6.
+5. CSS is used to create a modern and responsive design.
+6. Any user can access the home page and account page.
+7. Only Authorise user can access the map and CityList here user find the any city and also add the new new where are you want to visit.
 
-\*\* Component Tree / React Element Tree / (Virtual DOM)
+## Contact Me
 
--   App
-    -   HomePage
-    -   ProductPage
-    -   LoginPage
-    -   CityProvider (cities)
-        -   AppPage
-            -   SideBar
-                -   AppNav
-                -   CityList
-                    -   CityItem
-                    -   CityItem
-                    -   CityItem
-                    -   CityItem
-                -   CountryList
-                -   AddCityForm
-                -   City
-            -   Map
+[![GitHub ](https://img.shields.io/badge/GitHub-@MansiCharmkar-orange?style=flat&logo=GitHub&link=https://github.com/MansiCharmkar)](https://github.com/MansiCharmkar)
+[![LinkedIn ](https://img.shields.io/badge/LinkedIn-@mansiCharmkar-0077b5?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mansi-charmkar/)](https://www.linkedin.com/in/mansi-charmkar/)
 
-/// useReducer Plan
+## LISENSE
 
---> action 1 : "cities/load"
---> action 2 : "city/load"
---> action 3 : "city/delete"
---> action 4 : "city/update"
---> action 5 : "city/create"
---> action 6 : "loading"
---> action 7 : "rejected"
+[![License](https://img.shields.io/badge/license-MIT-85e2cd.svg)](https://opensource.org/license/mit/)
 
-state = {
-cities: [],
-city: null,
-loading: false,
-error: null
-}
+Copyright (c) 2025 Mansi Charmkar
