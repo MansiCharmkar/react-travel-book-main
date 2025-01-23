@@ -2,7 +2,7 @@
 
 <div align="center">
 <h4>
-React Travel Book is a web app with React, js, CSS and React-Router v6. User can browse a city list, manage their visit place and add the city for visiting add by the ID. Its modern design ensures a seamless and enjoyable user experience.</h4>
+React Travel Book helps travelers document their journeys by adding cities with experience notes. Featuring an interactive map powered by React Leaflet and OpenStreetMap, users can navigate, explore, and add cities directly on the map. Built with React, React Router v6, useReducer, and Context API, it offers a seamless way to capture travel experiences.</h4>
 
 <a href="https://chipper-bunny-a84143.netlify.app/">![version](https://img.shields.io/badge/Deployed-Link-0E89C6)</a>
 
@@ -60,13 +60,12 @@ npm run dev
 
 #### User and Admin Management:
 
-1. Users can browse a list of cities and countries using React-Router data-loading.
-2. Map functionality is implemented with React leaflet.
-3. City count can be incremented or decremented in the CityList.
-4. City name can be searched by their ID using React-Router v6.
-5. CSS is used to create a modern and responsive design.
-6. Any user can access the home page and account page.
-7. Only Authorise user can access the map and CityList here user find the any city and also add the new new where are you want to visit.
+1. Add cities with personalized travel experience notes.
+2. Powered by React Leaflet and OpenStreetMap, navigate the map and add cities by clicking directly on it.
+3. Sign up, log in, and log out to manage your personalized travel data securely.
+4. Built with useReducer and Context API for efficient state handling.
+5. Smooth navigation between pages using React Router v6.
+6. Powered by JSON Server for managing user and city data.
 
 ## Contact Me
 
