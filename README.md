@@ -4,6 +4,8 @@
 <h4>
 React Travel Book is a web app with React, js, CSS and React-Router v6. User can browse a city list, manage their visit place and add the city for visiting add by the ID. Its modern design ensures a seamless and enjoyable user experience.</h4>
 
+<a href="https://chipper-bunny-a84143.netlify.app/">![version](https://img.shields.io/badge/Deployed-Link-0E89C6)</a>
+
 [![Repo Type](https://img.shields.io/badge/repo_type-Public-fcc419?style=flat&link=https://github.com/MansiCharmkar/SafarSathi-BookToursOnline)](https://github.com/MansiCharmkar/SafarSathi-BookToursOnline)
 ![version](https://img.shields.io/badge/npm-v10.1.0-red)
 ![version](https://img.shields.io/badge/node-v20.9.0-green)
